@@ -1,5 +1,5 @@
 <launch>
-	<arg name="object_marker_size" default="10.0" />
+	<arg name="object_marker_size" default="12.0" />
 	<arg name="max_new_marker_error" default="0.08" />
 	<arg name="max_track_error" default="0.2" />
 	<arg name="cam_image_topic" default="/usb_cam/image_raw" />
@@ -17,4 +17,3 @@
 	</node>
 
 </launch>
-
